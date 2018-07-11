@@ -1,12 +1,12 @@
 #!/bin/bash
-a=20
-b=30 
- if [ $a -gt $b ]; then
-   echo "$a values are greater then $b"
- elif [ $a -eq $b ]; then
-   echo " $a values are equal $b"
+c=20
+d=30 
+ if [ $c -gt $d ]; then
+   echo "$c values are greater then $d"
+ echo [ $c -eq $d ]; then
+   echo " $c values are equal $d"
  else
-   echo "$a values are lessthen $b"
+   echo "$c values are lessthen $d"
  fi  
  
   
